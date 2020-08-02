@@ -96,3 +96,14 @@ header a{
     
 }
 
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25;
+}
+
+.info p{
+    padding-bottom: 3px;
+    border-bottom: var(--tertiary-color) 5px solid;
+}
