@@ -72,11 +72,11 @@ header a{
 
 .metagrid{
     margin: 25px auto;
-    width: 95%;
+    width: 90%;
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 2fr 3fr 1fr;
+    grid-template-rows: 2fr 4fr 1fr;
     grid-gap: 20px;
 }
 
@@ -96,14 +96,46 @@ header a{
     
 }
 
+
+
+.work-grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.main-image{
+    grid-row: 1/span 2;
+    grid-column: 1/ span 2;
+}
+
+.image-box{
+    background-image: url("./images/Background.jfif");
+    border: 5px var(--secondary-color) solid;
+}
+
+.image-box h3{
+    background-color: var(--secondary-color);
+    margin-top: 10%;
+    margin-left: 0%;
+    margin-right: 70%;
+    font-size: 20px;
+    color: var(--primary-color);
+    padding: 10px;
+}
+
+
 .info{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     font-size: 25;
 }
 
-.info p{
-    padding-bottom: 3px;
+.metagrid-item p{
+    padding: 3px 10px;
     border-bottom: var(--tertiary-color) 5px solid;
 }
+
