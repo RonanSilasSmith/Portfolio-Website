@@ -52,7 +52,7 @@ header a{
 }
 
 .hero{
-    background-image: url(./images/Background.jfif);
+    background-image: url(./images/background.png);
     background-size: cover;
     background-position: center;
     align-items: flex-end;
@@ -105,14 +105,33 @@ header a{
     grid-gap: 10px;
 }
 
+
+.image-box{
+    border: 5px var(--secondary-color) solid;
+    background-size: cover;
+    background-position: center;
+}
+
 .main-image{
     grid-row: 1/span 2;
     grid-column: 1/ span 2;
+    background-image: url(./images/Capture.PNG);
 }
 
-.image-box{
-    background-image: url("./images/Background.jfif");
-    border: 5px var(--secondary-color) solid;
+.img1{
+    background-image: url(./images/paint.jpg);
+}
+
+.img2{
+    background-image: url(./images/RPS.png);
+}
+
+.img3{
+    background-image: url(./images/Homemade-Buttermilk.jpg);
+}
+
+.img4{
+    background-image: url(./images/Spool_of_string.jpg);
 }
 
 .image-box h3{
